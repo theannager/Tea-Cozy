@@ -1,0 +1,107 @@
+html{
+    background-color: black;
+    color: seashell;
+    font-size: 22px;
+    opacity: 0.9;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+.header-container{
+    position: fixed;
+    top: 0;
+    height: 69px;
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 1;
+    z-index: 999;
+}
+.img-tea-cozy-logo{
+    height: 50px;
+    margin-left: 10px;
+}
+.navbar{
+padding-right: 20px;
+}
+/* HEADER END */
+
+.main{
+    margin-top: 70px;
+}
+
+/* HERO */
+.hero-container{
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1n123uu*_ga*MzM4NjkwNjE3LjE2NjY2NDYxMzE.*_ga_3LRZM6TM9L*MTY3MDI3NjM4Ni40OS4xLjE2NzAyNzYzODguNTguMC4w");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    align-items: center;
+    top: 60px;
+}
+.hero-text{
+    width: 100%;
+    background-color: black;
+    opacity: 0.9;
+}
+/* HERO END */
+
+/* TEA OF THE MONTH */
+.tea-container{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    width: 100%;
+    justify-items: center;
+}
+.tea-pics{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+figure {
+    margin: 0 15px;
+}
+.tea-pics-text {
+    margin-top: 10px;
+}
+/* TEA OF THE MONTH END */
+
+/* LOCATIONS */
+.locations-container{
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*16qfjx0*_ga*MzM4NjkwNjE3LjE2NjY2NDYxMzE.*_ga_3LRZM6TM9L*MTY3MDI3NjM4Ni40OS4xLjE2NzAyNzYzODguNTguMC4w);
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    overflow: scroll;
+}
+.locations-boxes{
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    opacity: 0.9;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    margin: 15px 20px 20px;
+}
+.box p {
+    line-height: 50px;
+    opacity: 1;
+}
+/* LOCATIONS END */
+
+footer{
+    height: 200px;
+}
