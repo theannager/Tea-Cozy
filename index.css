@@ -29,6 +29,9 @@ html{
 .navbar{
 padding-right: 20px;
 }
+.navbar:hover{
+    color: seashell;
+}
 /* HEADER END */
 
 .main{
