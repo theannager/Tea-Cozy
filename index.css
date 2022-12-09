@@ -36,6 +36,7 @@ opacity: 0.9;
 }
 .navbar:hover{
     color: blue;
+     transition: 0.5s;
 
 }
 /* HEADER END */
