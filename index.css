@@ -28,9 +28,15 @@ html{
 }
 .navbar{
 padding-right: 20px;
+opacity: 0.9;
+}
+.navbar,
+.navbar:after{
+    color: #fff5ee;
 }
 .navbar:hover{
-    color: #fff5ee;
+    color: blue;
+
 }
 /* HEADER END */
 
@@ -62,6 +68,7 @@ padding-right: 20px;
     margin-bottom: 75px;
     width: 100%;
     justify-items: center;
+    opacity: 0.9;
 }
 .tea-pics{
     display: flex;
@@ -107,4 +114,5 @@ figure {
 
 footer{
     height: 200px;
+    opacity: 0.9;
 }
